@@ -32,8 +32,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File tools/build.ps1 -BepInExRoot
 ## GitHub 첫 배포
 
 1. 빈 공개 저장소를 만들고 소스 ZIP의 **내용물**을 저장소 루트에 업로드합니다. `.work/`, 게임 폴더 전체, 로그와 interop DLL은 업로드하지 않습니다.
-2. `v0.1.0-beta.1` 태그로 **Pre-release**를 만듭니다. 제목과 본문에는 `RELEASE_NOTES.md`를 사용합니다.
-3. 설치 ZIP, 소스 ZIP, `SHA256SUMS.txt`를 릴리스 첨부 파일로 올립니다. GitHub가 자동 생성하는 Source code ZIP과 설치 ZIP을 구분해 안내합니다.
+2. 릴리스 버전 태그로 **Pre-release**를 만듭니다. 제목과 본문에는 `RELEASE_NOTES.md`를 사용합니다.
+3. 설치 ZIP 하나만 릴리스 첨부 파일로 올립니다. GitHub가 자동 생성하는 Source code ZIP과 TAR은 설치 파일이 아니라고 안내합니다.
 4. 공개 페이지에서 설치 ZIP을 다시 받아 파일 해시와 설치 구조를 확인합니다.
 
 실제 게시에는 게시할 GitHub 계정·저장소와 인증이 필요합니다. 로컬 패키지 생성만으로 GitHub에 게시되지는 않습니다.

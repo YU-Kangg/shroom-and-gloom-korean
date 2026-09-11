@@ -4,7 +4,7 @@ import hashlib,json,sys,zipfile,urllib.request
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'tools'))
 import build_catalog
-VERSION='v0.1.0-beta.1'
+VERSION='v0.1.1-beta.1'
 LOADER_HASH='3616d6a67f5f595973ec4aa7bd7edaf7f799d5bb9926f7146a6dcc7b4abf478f'
 DOCS=['README.md','BUILDING.md','GLOSSARY.md','TESTING.md','RELEASE_NOTES.md','THIRD_PARTY_NOTICES.md','LICENSE']
 SOURCE_DIRS=['src','translations','assets','licenses','packaging']

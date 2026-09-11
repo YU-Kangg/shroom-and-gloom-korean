@@ -6,5 +6,6 @@
 *.md text eol=lf
 *.py text eol=lf
 *.cfg text eol=lf
+*.txt text eol=lf
 *.ttf binary
 assets/shroom-korean-jua binary

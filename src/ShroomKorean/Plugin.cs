@@ -11,7 +11,7 @@ using UnityEngine.Localization.Tables;
 
 namespace ShroomKorean;
 
-[BepInPlugin("community.shroomandgloom.korean", "Shroom and Gloom Korean", "0.1.0")]
+[BepInPlugin("community.shroomandgloom.korean", "Shroom and Gloom Korean", "0.1.1")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance = null!;
@@ -22,6 +22,7 @@ public sealed class Plugin : BasePlugin
     private static AssetBundle? fontBundle;
     private static bool loadingFont;
     private static int translatedCount;
+    private static int repairedCardCount;
     internal static string DataDirectory = "";
 
     public override void Load()
@@ -40,10 +41,39 @@ public sealed class Plugin : BasePlugin
             harmony.Patch(method, prefix: new HarmonyMethod(typeof(Plugin), nameof(TranslateEntry)));
         foreach (var type in new[] { typeof(TextMeshPro), typeof(TextMeshProUGUI) })
             harmony.Patch(AccessTools.Method(type, "OnEnable"), postfix: new HarmonyMethod(typeof(Plugin), nameof(PrepareFont)));
-        var helpers = Assembly.Load("Assembly-CSharp").GetType("LocalizationHelpers", throwOnError: true)!;
+        harmony.Patch(AccessTools.Method(typeof(TextMeshPro), "GenerateTextMesh"),
+            postfix: new HarmonyMethod(typeof(Plugin), nameof(RestoreCardTextLayers)));
+        var gameAssembly = Assembly.Load("Assembly-CSharp");
+        var helpers = gameAssembly.GetType("LocalizationHelpers", throwOnError: true)!;
         harmony.Patch(AccessTools.Method(helpers, "FilterTokens"),
             prefix: new HarmonyMethod(typeof(Plugin), nameof(PrepareKoreanGrammar)));
+        Log.LogInfo("Korean card text renderer layer repair enabled.");
         Log.LogInfo($"Korean catalog loaded: {Entries.Count} entries. Target: EA 0.6.21 / Steam build 25221077.");
+    }
+
+    private static void RestoreCardTextLayers(TextMeshPro __instance)
+    {
+        try
+        {
+            // Korean fallback glyphs are rendered by TMP_SubMesh objects. A submesh can be
+            // created after the game snapshots renderers for a temporary UI layer, leaving
+            // it on that layer when the pooled card is reused. GenerateTextMesh runs before
+            // rendering, so matching the parent here repairs both new and reused cards.
+            var repaired = 0;
+            foreach (var subMesh in __instance.GetComponentsInChildren<TMP_SubMesh>(includeInactive: true))
+            {
+                var text = subMesh.textComponent;
+                if (text == null || subMesh.gameObject.layer == text.gameObject.layer) continue;
+                subMesh.gameObject.layer = text.gameObject.layer;
+                repaired++;
+            }
+            if (repaired > 0 && repairedCardCount++ < 5)
+                Instance.Log.LogInfo($"Repaired {repaired} Korean card text renderer layer(s).");
+        }
+        catch (Exception ex)
+        {
+            if (Reported.Add("card-text-layer-repair:" + ex.GetType().Name)) Instance.Log.LogError(ex);
+        }
     }
 
     public sealed class Translation
