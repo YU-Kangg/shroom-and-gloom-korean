@@ -1,0 +1,14 @@
+This repository contains materials with separate licenses:
+
+* Original source code in src/ and tools/: MIT; see licenses/Project-MIT.txt.
+* Korean translations and the derived TMP bundle template:
+  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International;
+  see licenses/Upstream-CC-BY-NC-SA-4.0.txt.
+  Attribution: oatone-textcat/shroom-and-gloom-demo-korean and contributors.
+  Changes: early-access localization, editorial corrections, token integration,
+  and rebuilt Korean font data, September 2026.
+* Font software: SIL Open Font License 1.1. See Jua-OFL.txt and NotoSansKR-OFL.txt.
+* Bundled third-party libraries retain their own licenses and notices.
+
+This project does not grant rights to the original game or its assets.
+See README.md and THIRD_PARTY_NOTICES.md for attribution and source locations.

@@ -1,0 +1,136 @@
+[
+  {
+    "name": "AsmResolver",
+    "repository": "https://github.com/Washi1337/AsmResolver",
+    "revision": "124e161a9bc0ebb83b4d97276ae3da3c9cfe2fc5",
+    "license": "MIT",
+    "license_url": "https://github.com/Washi1337/AsmResolver/blob/124e161a9bc0ebb83b4d97276ae3da3c9cfe2fc5/LICENSE.md",
+    "license_sha256": "1c967bb945d9e86f79e49dda29e834d49ff3cb203c9a98878e7661b3de7a5559"
+  },
+  {
+    "name": "AssetRipper-CIL",
+    "repository": "https://github.com/AssetRipper/AssetRipper.CIL",
+    "revision": "06216e69825ccd6536dc17e9ca81c4d539ce9321",
+    "license": "MIT",
+    "license_url": "https://github.com/AssetRipper/AssetRipper.CIL/blob/06216e69825ccd6536dc17e9ca81c4d539ce9321/LICENSE",
+    "license_sha256": "039cd624a13919c3af1aec3ce2217c3f50d6e3053f6e9ef64d9cf37e12812a76"
+  },
+  {
+    "name": "AssetRipper-Primitives",
+    "repository": "https://github.com/AssetRipper/AssetRipper.Primitives",
+    "revision": "d759b3db98bf2a1cb8c2181faf5d405610aac585",
+    "license": "MIT",
+    "license_url": "https://github.com/AssetRipper/AssetRipper.Primitives/blob/d759b3db98bf2a1cb8c2181faf5d405610aac585/License.md",
+    "license_sha256": "dae6148ff7ad3331a6380a2ce0cbb87f71b8f177891aba1661b1d3a6fe52d5de"
+  },
+  {
+    "name": "BepInEx",
+    "repository": "https://github.com/BepInEx/BepInEx",
+    "revision": "3fab71a1914132a1ce3a545caf3192da603f2258",
+    "license": "LGPL-2.1",
+    "license_url": "https://github.com/BepInEx/BepInEx/blob/3fab71a1914132a1ce3a545caf3192da603f2258/LICENSE",
+    "license_sha256": "f2ceca48af033d8adf337a8f9453e633cfad10a1f8c9fec2e5ae55a2d8ffe952",
+    "source_url": "https://codeload.github.com/BepInEx/BepInEx/zip/3fab71a1914132a1ce3a545caf3192da603f2258",
+    "source_sha256": "12781a0a4564e99f8b31f290c28199ce30f81aa2a236991a4a7df4111ac0d45c"
+  },
+  {
+    "name": "Capstone",
+    "repository": "https://github.com/capstone-engine/capstone",
+    "revision": "4.0.2",
+    "license": "BSD-3-Clause and component notices",
+    "license_url": "https://raw.githubusercontent.com/capstone-engine/capstone/4.0.2/LICENSE.TXT",
+    "license_sha256": "65e9ed46a59976eda8f5bd1ea79a680dea38dd299c760bc9a8d87a764ef5029b"
+  },
+  {
+    "name": "Capstone-NET",
+    "repository": "https://github.com/9ee1/Capstone.NET",
+    "revision": "b90e380c14e857865c94a355954236e678bd557c",
+    "license": "MIT",
+    "license_url": "https://github.com/9ee1/Capstone.NET/blob/b90e380c14e857865c94a355954236e678bd557c/LICENSE",
+    "license_sha256": "79463fa3b9facda0f90e33eda09ff57c6c4d5620ba8b01e5c48a68834e20de4e"
+  },
+  {
+    "name": "Cpp2IL",
+    "repository": "https://github.com/SamboyCoding/Cpp2IL",
+    "revision": "558ddd98642010897d54316b51fbaa7889fda093",
+    "license": "MIT",
+    "license_url": "https://github.com/SamboyCoding/Cpp2IL/blob/558ddd98642010897d54316b51fbaa7889fda093/LICENSE",
+    "license_sha256": "1a80d1b99e958385045da1e383a105895d1c997ef2b36448430dbfe3763fe670"
+  },
+  {
+    "name": "Disarm",
+    "repository": "https://github.com/SamboyCoding/Disarm",
+    "revision": "8574010015c8c56bb7faad7e407c50b0abe9cc72",
+    "license": "MIT",
+    "license_url": "https://github.com/SamboyCoding/Disarm/blob/8574010015c8c56bb7faad7e407c50b0abe9cc72/LICENSE",
+    "license_sha256": "dfe5ef7511938e4d23b12c80f38e966a7993aee60744ab72a947bed7b24963b8"
+  },
+  {
+    "name": "Dobby",
+    "repository": "https://github.com/jmpews/Dobby",
+    "revision": "master",
+    "license": "Apache-2.0",
+    "license_url": "https://github.com/jmpews/Dobby/blob/master/LICENSE",
+    "license_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1"
+  },
+  {
+    "name": "HarmonyX",
+    "repository": "https://github.com/BepInEx/HarmonyX",
+    "revision": "v2.10.2",
+    "license": "MIT",
+    "license_url": "https://github.com/BepInEx/HarmonyX/blob/v2.10.2/LICENSE",
+    "license_sha256": "7e54ab4766ef78637a05fb3454663a66de6bb960dbd4c7088890ed76b0844f36"
+  },
+  {
+    "name": "Iced",
+    "repository": "https://github.com/icedland/iced",
+    "revision": "601c40570d6c986c8e1a6a2e483dd2fdf5ade552",
+    "license": "MIT",
+    "license_url": "https://github.com/icedland/iced/blob/601c40570d6c986c8e1a6a2e483dd2fdf5ade552/LICENSE.txt",
+    "license_sha256": "93a47598376fd3f276b631e75149340087153c6ff1635a53c5790249e9124e2d"
+  },
+  {
+    "name": "Il2CppInterop",
+    "repository": "https://github.com/BepInEx/Il2CppInterop",
+    "revision": "6d9007c18cc8440830379c5e1d5714085e7ec577",
+    "license": "NOASSERTION",
+    "license_url": "https://github.com/BepInEx/Il2CppInterop/blob/6d9007c18cc8440830379c5e1d5714085e7ec577/LICENSE",
+    "license_sha256": "5eecce16e59e24ddd9d3712012517a033f2cd0459ace22b43d5659d4624abff0",
+    "source_url": "https://codeload.github.com/BepInEx/Il2CppInterop/zip/6d9007c18cc8440830379c5e1d5714085e7ec577",
+    "source_sha256": "cc2144de9ce503704eebbe65987dfe19d905f66a9ced262a510698f18cbc605d"
+  },
+  {
+    "name": "Mono-Cecil",
+    "repository": "https://github.com/jbevain/cecil",
+    "revision": "0.11.4",
+    "license": "MIT",
+    "license_url": "https://github.com/jbevain/cecil/blob/0.11.4/LICENSE.txt",
+    "license_sha256": "13d58ecbed676511c0c4c4009bff107025e50007ff5e7901dc562700ec62509e"
+  },
+  {
+    "name": "MonoMod",
+    "repository": "https://github.com/MonoMod/MonoMod",
+    "revision": "v22.07.31.01",
+    "license": "MIT",
+    "license_url": "https://github.com/MonoMod/MonoMod/blob/v22.07.31.01/LICENSE",
+    "license_sha256": "0b64833222e3c6a426ad29362d26334619fe02eaf2b89ea9c37805521896c920"
+  },
+  {
+    "name": "SemanticVersioning",
+    "repository": "https://github.com/adamreeve/semver.net",
+    "revision": "master",
+    "license": "MIT",
+    "license_url": "https://github.com/adamreeve/semver.net/blob/master/LICENSE",
+    "license_sha256": "536a6bd5a788737753071389b6da75e79dc9f10f5dadff134d92400b0c50764d"
+  },
+  {
+    "name": "UnityDoorstop",
+    "repository": "https://github.com/NeighTools/UnityDoorstop",
+    "revision": "v4.5.0",
+    "license": "LGPL-2.1",
+    "license_url": "https://github.com/NeighTools/UnityDoorstop/blob/v4.5.0/LICENSE",
+    "license_sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+    "source_url": "https://codeload.github.com/NeighTools/UnityDoorstop/zip/v4.5.0",
+    "source_sha256": "7f0c963104aa08bf5fefef8ff85e7fecd8306838f5af3101487d9db4e9188d63"
+  }
+]

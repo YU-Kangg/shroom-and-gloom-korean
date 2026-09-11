@@ -1,0 +1,23 @@
+.work/
+dist/
+artifacts/
+**/bin/
+**/obj/
+__pycache__/
+*.user
+*.log
+
+# Local reverse-engineering and interactive test helpers
+tools/bootstrap.ps1
+tools/capture-game.ps1
+tools/fetch_licenses.py
+tools/finalize_editorial.py
+tools/font_preview.py
+tools/game-input.ps1
+tools/game-window.ps1
+tools/install-development.ps1
+tools/inspect_metadata.py
+tools/Metadata/
+tools/prepare-clean-test.ps1
+tools/review_catalog.py
+tools/seed_translations.py

@@ -1,0 +1,310 @@
+{
+  "Card/MULT_ENEMY_SELF": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/MULT_CARD_SELF": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/INTENT_SUBSTITUTE_CARD_WITH_PROPERTY_GAIN": {
+    "SourceHash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/MULT_ENEMY_NONE": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ANY_CARD_OVERCHARGE_ENDED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ANY_CARD_OVERCHARGED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ATTACK_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_CAMP_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_CHARGE_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_CURSE_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_DATA_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_MOOD_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PASSIVE_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PICK_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_SEARCH_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_SKILL_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_TURRET_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_CREATURE_ENTERS_HAND": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_GUNK_REMOVED_ON_ANY_CARD": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_STORED_GUNK_CONSUMED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_UNGUNKED_ANY_CARD": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_FOR_EVERY_GUNK_REMOVED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_GUNK_REMOVED_ON_TARGET_CARD": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ATTACK_OR_SKILL_CARD_PLAYED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_CARD_IS_EATEN": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_CARD_IS_PLAYED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_DISCARD": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_DISCARDED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ENEMY_ATTACKS": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ENEMY_ATTACKS_ITSELF": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ENEMY_BELOW_HEALTH": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_ENEMY_KILLS_ITSELF": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_FIVE_CARDS_PLAYED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_FOUR_CARDS_PLAYED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_MAX_HEALTH_INCREASES": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_MOOD_IS_DISPELLED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PET_IS_CREATED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PET_IS_DRAWN": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PLAYER_DEALS_DAMAGE": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PLAYER_TAKES_DAMAGE": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PLAYER_TURN_BEGINS": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_PLAYER_TURN_ENDS": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_THREE_CARDS_PLAYED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_WOULD_BE_DISCARDED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_BREAK": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_DIG": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_FEED": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_FIX": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_IGNITE": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_OVERHEAL": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_REVEAL": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_SET_UP_CAMP": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_TRIGGER_IF_YOU_UNLOCK": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_WORD_STORE_PROTEIN": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_WORD_SWALLOW": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Card/TOOLTIP_WORD_DISCHARGE": {
+    "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Enemy/HAZARD_REWARD_TITLE_PATIENT_ZERO_2": {
+    "SourceHash": "2d711642b726b04401627ca9fbac32f5c8530fb1903cc4db02258717921a4881",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "Enemy/TOOLTIP_STATUS_GLOOMCREATURESHIVERINGHORROR": {
+    "SourceHash": "79733cbad98c0d7f2f4126385ad00368198370a94acfae8622d2aa943d3159c8",
+    "Reason": "Intentional corrupted-symbol horror effect"
+  },
+  "Enemy/TOOLTIP_STATUS_GLOOMCREATURECREEPINGHORROR": {
+    "SourceHash": "79733cbad98c0d7f2f4126385ad00368198370a94acfae8622d2aa943d3159c8",
+    "Reason": "Intentional corrupted-symbol horror effect"
+  },
+  "Enemy/TOOLTIP_STATUS_GLOOMCREATURECOSMICHORROR": {
+    "SourceHash": "79733cbad98c0d7f2f4126385ad00368198370a94acfae8622d2aa943d3159c8",
+    "Reason": "Intentional corrupted-symbol horror effect"
+  },
+  "UI/CREDITS_SECTION_01_NAMESONLYTEXT": {
+    "SourceHash": "a683c5c5349f6f7fb903ba8a9e7e55d0ba1b8f03579f95be83f4954c33e81098",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "UI/CREDITS_SECTION_02_SUBHEADER": {
+    "SourceHash": "a683c5c5349f6f7fb903ba8a9e7e55d0ba1b8f03579f95be83f4954c33e81098",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "UI/CREDITS_SECTION_02_NAMESONLYTEXT": {
+    "SourceHash": "92691f6f64605c49e9159fdaeef2ffaa40d6375ee0f6f735f70bd8d96d949c8b",
+    "Reason": "Original contributor and organization names"
+  },
+  "UI/CREDITS_SECTION_03_SUBHEADER": {
+    "SourceHash": "a683c5c5349f6f7fb903ba8a9e7e55d0ba1b8f03579f95be83f4954c33e81098",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "UI/CREDITS_SECTION_03_NAMESONLYTEXT": {
+    "SourceHash": "a683c5c5349f6f7fb903ba8a9e7e55d0ba1b8f03579f95be83f4954c33e81098",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "UI/CREDITS_SECTION_04_SUBHEADER": {
+    "SourceHash": "a683c5c5349f6f7fb903ba8a9e7e55d0ba1b8f03579f95be83f4954c33e81098",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "UI/CREDITS_SECTION_04_NAMESONLYTEXT": {
+    "SourceHash": "1d35f8cbdca8062acc2944cc6e35afacf1ff7e66d1e840f9ed5a5dda4e05445a",
+    "Reason": "Original copyright and trademark notice"
+  },
+  "UI/UNKNOWN_QMARK": {
+    "SourceHash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/EXPLORE_REWARD_DOOR_TOOLTIP_UNKNOWN": {
+    "SourceHash": "e270aeb347f2165574c3a5c5bf11d038bcd3acd5abfdb5ae8a1b52d91cb842f0",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/SPEECH_BUBBLE_FROG_KING_RANDOM_FINAL_REPEATING": {
+    "SourceHash": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/PATH_NAME_P4": {
+    "SourceHash": "8a8de823d5ed3e12746a62ef169bcf372be0ca44f0a1236abc35df05d96928e1",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/PATH_NAME_P5": {
+    "SourceHash": "e270aeb347f2165574c3a5c5bf11d038bcd3acd5abfdb5ae8a1b52d91cb842f0",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/PATH_NAME_PEB": {
+    "SourceHash": "1ef582f80cff146422bc4cbac3ce5d44251d687e1c5863b6708947c5fb361f91",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/PATH_NAME_UNKNOWN": {
+    "SourceHash": "a03b221c6c6eae7122ca51695d456d5222e524889136394944b2f9763b483615",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/EXPLORE_REWARD_DOOR_TOOLTIP_EXCLAIM": {
+    "SourceHash": "233d26e97f6469a0a7e0369bfb9ff2504cc5e0037df310c7600d18d62deebce4",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/MAP_REWARD_P2_BOSS": {
+    "SourceHash": "4b68ab3847feda7d6c62c1fbcbeebfa35eab7351ed5e78f4ddadea5df64b8015",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  },
+  "World/MAP_REWARD_P2_CHEST": {
+    "SourceHash": "4b68ab3847feda7d6c62c1fbcbeebfa35eab7351ed5e78f4ddadea5df64b8015",
+    "Reason": "Non-linguistic marker or unused placeholder"
+  }
+}
