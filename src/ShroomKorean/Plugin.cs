@@ -11,7 +11,7 @@ using UnityEngine.Localization.Tables;
 
 namespace ShroomKorean;
 
-[BepInPlugin("community.shroomandgloom.korean", "Shroom and Gloom Korean", "0.1.1")]
+[BepInPlugin("community.shroomandgloom.korean", "Shroom and Gloom Korean", "0.1.2")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance = null!;
@@ -47,8 +47,45 @@ public sealed class Plugin : BasePlugin
         var helpers = gameAssembly.GetType("LocalizationHelpers", throwOnError: true)!;
         harmony.Patch(AccessTools.Method(helpers, "FilterTokens"),
             prefix: new HarmonyMethod(typeof(Plugin), nameof(PrepareKoreanGrammar)));
+        harmony.Patch(AccessTools.Method(typeof(Tooltip), "GetTooltip"),
+            prefix: new HarmonyMethod(typeof(Plugin), nameof(UseForgetButtonTooltip)));
+        harmony.Patch(AccessTools.Method(typeof(ModifyCardEncounterUI), "RefreshTrainingTypeText"),
+            prefix: new HarmonyMethod(typeof(Plugin), nameof(PrepareUpgradeText)));
+        harmony.Patch(AccessTools.Method(typeof(BowlShopEncounterUI), "CalculateCanAffordAndDisplay"),
+            prefix: new HarmonyMethod(typeof(Plugin), nameof(PrepareShopText)));
         Log.LogInfo("Korean card text renderer layer repair enabled.");
         Log.LogInfo($"Korean catalog loaded: {Entries.Count} entries. Target: EA 0.6.21 / Steam build 25221077.");
+    }
+
+    private static void PrepareUpgradeText(ModifyCardEncounterUI __instance)
+    {
+        UseUnifiedUiFont(__instance._detailText);
+    }
+
+    private static void PrepareShopText(BowlShopEncounterUI __instance)
+    {
+        UseUnifiedUiFont(__instance.CanAffordText);
+        UseUnifiedUiFont(__instance.CanAffordCanBeReusedText);
+    }
+
+    private static void UseUnifiedUiFont(TMP_Text? text)
+    {
+        try
+        {
+            if (text == null || UnityEngine.Localization.Settings.LocalizationSettings.SelectedLocale?.Identifier.Code != "en") return;
+            if (koreanFont == null) PrepareFont(text);
+            if (koreanFont == null || text.font == koreanFont) return;
+            // These mixed labels previously rendered ASCII and Korean using separate
+            // font/material meshes. The bundled font includes digits and decimal points.
+            text.font = koreanFont;
+            text.fontSharedMaterial = koreanFont.material;
+            if (Reported.Add("unified-ui:" + text.GetInstanceID()))
+                Instance.Log.LogInfo("Applied unified Korean/number font to " + text.name);
+        }
+        catch (Exception ex)
+        {
+            if (Reported.Add("unified-ui-error")) Instance.Log.LogError(ex);
+        }
     }
 
     private static void RestoreCardTextLayers(TextMeshPro __instance)
@@ -73,6 +110,42 @@ public sealed class Plugin : BasePlugin
         catch (Exception ex)
         {
             if (Reported.Add("card-text-layer-repair:" + ex.GetType().Name)) Instance.Log.LogError(ex);
+        }
+    }
+
+    private static bool UseForgetButtonTooltip(Tooltip __instance, ref string __result)
+    {
+        // Resolve at hover time from this exact button. Updating the shop's cached static
+        // tooltip does not cover every tooltip source or initialization order.
+        try
+        {
+            if (UnityEngine.Localization.Settings.LocalizationSettings.SelectedLocale?.Identifier.Code != "en") return true;
+            var button = __instance.GetComponent<SwapOutObjectButton>();
+            var calls = button?.OnClickUEvent?.m_PersistentCalls?.m_Calls;
+            if (calls == null) return true;
+            CardTrainingType? chosen = null;
+            foreach (var call in calls)
+            {
+                if (call.m_MethodName != "HandleModifyCardClick"
+                    || call.m_Target?.TryCast<BowlShopEncounterUI>() == null
+                    || call.m_Mode != UnityEngine.Events.PersistentListenerMode.Object
+                    || call.m_CallState == UnityEngine.Events.UnityEventCallState.Off) continue;
+                var argument = call.m_Arguments?.m_ObjectArgument?.TryCast<CardTrainingType>();
+                if (argument == null || (argument != CardTrainingType.TForgetExploreCard
+                    && argument != CardTrainingType.TForgetCombatCard)) continue;
+                if (chosen != null && chosen != argument) return true;
+                chosen = argument;
+            }
+            if (chosen == null) return true;
+            __result = LocalizationHelpers.FilterCommonWordLinkKey(chosen.GetTrainingTypeDetail());
+            if (Reported.Add("forget-tooltip:" + __instance.GetInstanceID()))
+                Instance.Log.LogInfo($"Forget tooltip: button={button!.name}; action={chosen.name}; text={__result}");
+            return false;
+        }
+        catch (Exception ex)
+        {
+            if (Reported.Add("forget-tooltip")) Instance.Log.LogError(ex);
+            return true;
         }
     }
 
