@@ -59,6 +59,6 @@ DLL 빌드와 배포 ZIP 생성은 [BUILDING.md](BUILDING.md)를 참고하세요
 
 원작 게임의 권리는 해당 권리자에게 있습니다. 공식 한국어 지원이나 개발사의 공식 배포물이 아닙니다.
 
-[oatone-textcat의 데모 한국어 패치](https://github.com/oatone-textcat/shroom-and-gloom-demo-korean)를 참고했으며, 번역 일부를 계승·교정하고 얼리 액세스의 새 문구를 번역했습니다. 참조 커밋은 `5f5e1001d9ed34c43334ea5bf97c847db2246e5b`입니다. 해당 패치의 글꼴 번들을 직렬화 템플릿으로 사용하고 글리프·아틀라스·글꼴 정보를 새로 생성했습니다. 기존 데모용 번역 플러그인은 배포하지 않습니다.
+[팀 글냥이의 데모 한국어 패치](https://github.com/oatone-textcat/shroom-and-gloom-demo-korean)를 참고했으며, 번역 일부를 계승·교정하고 얼리 액세스의 새 문구를 번역했습니다. 참조 커밋은 `5f5e1001d9ed34c43334ea5bf97c847db2246e5b`입니다. 해당 패치의 글꼴 번들을 직렬화 템플릿으로 사용하고 글리프·아틀라스·글꼴 정보를 새로 생성했습니다. 기존 데모용 번역 플러그인은 배포하지 않습니다.
 
 번역과 위 템플릿 기반 번들의 이용 조건은 **CC BY-NC-SA 4.0**입니다. 새로 작성한 플러그인·도구 코드는 **MIT**, 글꼴 원본은 **SIL OFL 1.1**입니다. 로더와 구성 라이브러리는 각각의 라이선스를 따릅니다. 자세한 출처와 사본은 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)와 `licenses/`를 참고하세요.
