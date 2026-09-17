@@ -11,7 +11,7 @@ using UnityEngine.Localization.Tables;
 
 namespace ShroomKorean;
 
-[BepInPlugin("community.shroomandgloom.korean", "Shroom and Gloom Korean", "0.1.2")]
+[BepInPlugin("community.shroomandgloom.korean", "Shroom and Gloom Korean", "0.1.3")]
 public sealed class Plugin : BasePlugin
 {
     internal static Plugin Instance = null!;
@@ -54,7 +54,7 @@ public sealed class Plugin : BasePlugin
         harmony.Patch(AccessTools.Method(typeof(BowlShopEncounterUI), "CalculateCanAffordAndDisplay"),
             prefix: new HarmonyMethod(typeof(Plugin), nameof(PrepareShopText)));
         Log.LogInfo("Korean card text renderer layer repair enabled.");
-        Log.LogInfo($"Korean catalog loaded: {Entries.Count} entries. Target: EA 0.6.21 / Steam build 25221077.");
+        Log.LogInfo($"Korean catalog loaded: {Entries.Count} entries. Target: EA 0.6.39 / Steam build 25342632.");
     }
 
     private static void PrepareUpgradeText(ModifyCardEncounterUI __instance)

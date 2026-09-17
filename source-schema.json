@@ -5753,6 +5753,12 @@
     "Links": {},
     "CardReferences": []
   },
+  "Card Names/CARD_NAMES_CHAINSAW_HANDS": {
+    "SourceHash": "1a24febf5dbe2c8ac24ff3f5a4be19d78bd39af659f93fccf6680c30a4894661",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
   "Card/CLASS_CREATURE": {
     "SourceHash": "fc1599a5b7660e7c07b59e7e1659f0e17c19b5744986082303ed3b4af0d33b08",
     "Tokens": {},
@@ -7197,12 +7203,10 @@
     "CardReferences": []
   },
   "Card/INTENT_CONSUME_GUNK": {
-    "SourceHash": "57fa33335797fa6e5af08ce8bd8ca4d48f7e807bcb7c7e9e1b25fa810e8f3089",
+    "SourceHash": "76f130e2de4367e2f368c7cb140c643ea1c106831a040461a924fc89c02b1aa3",
     "Tokens": {
-      "[PNUM]": 1,
-      "[LINKKEY=PROPERTY_GUNK]": 1,
-      "[JOINER=WORD_OFF]": 1,
-      "[MULTIPLICITY_CARD]": 1
+      "[LINKKEY=WORD_CLEAN]": 1,
+      "[PNUM]": 1
     },
     "Links": {},
     "CardReferences": []
@@ -7400,14 +7404,6 @@
     "Tokens": {
       "[HEXCODE]": 1,
       "[CARD_NAME]": 1
-    },
-    "Links": {},
-    "CardReferences": []
-  },
-  "Card/INTENT_GAIN_ARE_ROLL_MULTI": {
-    "SourceHash": "bc45d638ca681f640c2c0620addfeb979f48c55e3e02850522f83fe31fe26a5a",
-    "Tokens": {
-      "[PNUM]": 1
     },
     "Links": {},
     "CardReferences": []
@@ -9823,7 +9819,7 @@
     "CardReferences": []
   },
   "Card/TOOLTIP_TRIGGER_IF_CARD_GUNKED": {
-    "SourceHash": "af81e3be8647557a3e295196abefa7155ddd9c25d7a176e885fb261e5c1a715a",
+    "SourceHash": "79831af477802b499396ae29ba4e27b2d088f2183dfe3ba2bc6057dd9ef2a0b1",
     "Tokens": {
       "[HEXCODE]": 1,
       "[LINKKEY]": 1
@@ -11737,6 +11733,88 @@
   },
   "Card/TOOLTIP_WORD_DISCHARGE": {
     "SourceHash": "d2e2adf7177b7a8afddbc12d1634cf23ea1a71020f6a1308070a16400fb68fde",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/PROPERTY_UNDERSTOOD": {
+    "SourceHash": "501721f0699ef8abe8d4eb260825a8e90ce3ecd9c663403a10e0cbd32cc392ea",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/WORD_CLEAN": {
+    "SourceHash": "3e49dd16f3893026764455ec2610d4cabf5fb0e47c506543598c10a94bbca204",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/WORD_MECHANIZE": {
+    "SourceHash": "44ebd2cb2ca2624ef739308c0482b3b5b93ceca448b9711dd507ae8687d12006",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/INTENT_GAIN_A_REROLL_MULTI": {
+    "SourceHash": "bc45d638ca681f640c2c0620addfeb979f48c55e3e02850522f83fe31fe26a5a",
+    "Tokens": {
+      "[PNUM]": 1
+    },
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/INTENT_MAKE_CARD_WITH_DECAY": {
+    "SourceHash": "87e7e40842a5553a27f935d8e0dbb6d007fce3883a037b85f512ee6718f61978",
+    "Tokens": {
+      "[HEXCODE]": 1,
+      "[CARD_NAME]": 1,
+      "[PNUM]": 1
+    },
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/INTENT_MECHANIZE": {
+    "SourceHash": "d696109e4222051c3e0c18a8ca065ff7622daceae7253378e1d3257fcb6f568a",
+    "Tokens": {
+      "[LINKKEY=WORD_MECHANIZE]": 1
+    },
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/TOOLTIP_WORD_CLEAN": {
+    "SourceHash": "3ef3600c51b4ac472b052b02091ae11c6e3b8f6928d74ff9d6cd9f932c2b9408",
+    "Tokens": {
+      "[PNUM]": 1
+    },
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/TOOLTIP_WORD_MECHANIZE": {
+    "SourceHash": "029179daa505aae21defc5e464f44617c0af226743f6d0ce663b087f4833c350",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/TOOLTIP_INTENT_MECHANIZE": {
+    "SourceHash": "029179daa505aae21defc5e464f44617c0af226743f6d0ce663b087f4833c350",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/PROPERTY_FEROCIOUS": {
+    "SourceHash": "c25dbc21886dcf1c27ab6b2d686fd31b11a0c4fb7339c84562e1c61434b54e4d",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/TOOLTIP_PROPERTY_FEROCIOUS": {
+    "SourceHash": "b72c7ce16d5d6a6ba8078775a842ba125c9028d2aa77e23ffa0c026775839c1d",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "Card/TOOLTIP_PROPERTY_UNDERSTOOD": {
+    "SourceHash": "14c050a2ce9cbbe380d6b9b6e600d97d7a2284fd1c373172abf80f6571fe19c0",
     "Tokens": {},
     "Links": {},
     "CardReferences": []
@@ -14362,6 +14440,12 @@
   },
   "UI/CREDITS_SECTION_01_B_TITLE": {
     "SourceHash": "b6bd77775c5bbdf646563ecbf8de653409d10a525d77da01243a750971dea00b",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "UI/SETTINGS_CONTROLLER_ENABLED": {
+    "SourceHash": "e02cc1c92019a33be4d3581af661bee17e139364791e7ab9a60a764168fbf5a6",
     "Tokens": {},
     "Links": {},
     "CardReferences": []
@@ -18137,6 +18221,12 @@
   },
   "World/ROBERT_TOOLTIP_SECOND_COUSIN": {
     "SourceHash": "ef513b4056675b77cbe1dd192e50b1297d4dbbc7a46c8a5bcfd5abe657fb450b",
+    "Tokens": {},
+    "Links": {},
+    "CardReferences": []
+  },
+  "World/TRAINING_TYPE_DETAIL_BL_IF_GUNKED_INCREASE_DECAY": {
+    "SourceHash": "c26e8531a150fdec8f4b7432814fb84b24111b904b87a3b46a55e7db9ef2e62b",
     "Tokens": {},
     "Links": {},
     "CardReferences": []
